@@ -9,7 +9,7 @@
 
 Pipeline ETL completo implementando la arquitectura **Medallion** (Bronze → Silver → Gold) para análisis exhaustivo de datos de Pokémon usando la [PokéAPI](https://pokeapi.co/).
 
-[Características](#-características) • [Instalación](#-instalación) • [Uso](#-uso) • [Arquitectura](#-arquitectura) • [Visualizaciones](#-visualizaciones)
+[Características](#-características) • [Instalación](#-instalación) • [Uso](#-uso) • [Arquitectura](#-arquitectura-del-pipeline) • [Visualizaciones](#-visualizaciones)
 
 </div>
 
@@ -269,14 +269,21 @@ output/
 ### 1. 🏆 Top 15 Pokémon por Estadísticas Totales
 Gráfico de barras horizontal mostrando los Pokémon más poderosos.
 
+<div align="center">
+  <img src="images/Top 15 Pokémon por Estadísticas Totales.png" alt="Top Pokémon" width="65%">
+</div>
+
 **Insights:**
 - Identifica los Pokémon más fuertes
 - Compara niveles de poder
 - Visualiza distribución de stats
-<img width="1409" height="553" alt="image" src="https://github.com/user-attachments/assets/2d03dcd2-1d5e-4d06-b7a9-350262bdd29e" />
 
 ### 2. 📈 Distribución de Niveles de Poder
 Histograma de estadísticas totales clasificadas por nivel.
+
+<div align="center">
+  <img src="images/Distribución de Niveles de Poder.png" alt="figura 1" width="65%">
+</div>
 
 **Insights:**
 - Distribución de poder en la muestra
@@ -286,6 +293,10 @@ Histograma de estadísticas totales clasificadas por nivel.
 ### 3. ⭐ Comparación de Estadísticas (Radar Chart)
 Radar comparativo de los Top 5 Pokémon.
 
+<div align="center">
+  <img src="images/Comparación de Estadísticas (Radar Chart).png" alt="figura  2" width="65%">
+</div>
+
 **Insights:**
 - Fortalezas y debilidades
 - Perfiles de combate
@@ -293,6 +304,10 @@ Radar comparativo de los Top 5 Pokémon.
 
 ### 4. 🎯 Análisis Completo por Tipo
 4 subgráficos analizando tipos de Pokémon.
+
+<div align="center">
+  <img src="images/Análisis Completo por Tipo.png" alt="figura 3" width="65%">
+</div>
 
 **Insights:**
 - Tipos más comunes
@@ -302,6 +317,10 @@ Radar comparativo de los Top 5 Pokémon.
 ### 5. 🌍 Análisis 3D: Altura vs Peso vs Experiencia
 Scatter plot 3D interactivo.
 
+<div align="center">
+  <img src="images/Análisis 3D Altura vs Peso vs Experiencia.png" alt="figura 4" width="65%">
+</div>
+
 **Insights:**
 - Correlaciones multidimensionales
 - Clustering de Pokémon similares
@@ -309,6 +328,10 @@ Scatter plot 3D interactivo.
 
 ### 6. 🔥 Heatmap de Estadísticas
 Mapa de calor de stats del Top 20.
+
+<div align="center">
+  <img src="images/Heatmap de Estadísticas.png" alt="figura 5" width="65%">
+</div>
 
 **Insights:**
 - Comparación visual de múltiples stats
@@ -318,6 +341,10 @@ Mapa de calor de stats del Top 20.
 ### 7. 🔗 Matriz de Correlación
 Correlaciones entre características numéricas.
 
+<div align="center">
+  <img src="images/Matriz de Correlación.png" alt="figura 6" width="65%">
+</div>
+
 **Insights:**
 - Relaciones entre variables
 - Factores predictivos
@@ -325,6 +352,10 @@ Correlaciones entre características numéricas.
 
 ### 8. ☀️ Distribución por Categorías (Sunburst)
 Gráfico jerárquico de tamaño y poder.
+
+<div align="center">
+  <img src="images/Distribución por Categorías (Sunburst).png" alt="figura 7" width="65%">
+</div>
 
 **Insights:**
 - Distribución por categorías
@@ -418,11 +449,6 @@ with pd.ExcelWriter('reporte_pokemon.xlsx') as writer:
 ```
 ---
 
-## 📄 Licencia
-
-Este proyecto está bajo la Licencia MIT. Ver el archivo [LICENSE](LICENSE) para más detalles.
-
----
 ## ❓ FAQ (Preguntas Frecuentes)
 
 **P: ¿Cuánto tarda en ejecutarse el pipeline completo?**
@@ -433,6 +459,12 @@ R: Modifica el parámetro `pokemon_limit` en la función `run_etl_pipeline()`.
 
 **P: ¿El proyecto funciona con Python 3.7?**
 R: Se recomienda Python 3.8+, pero puede funcionar con 3.7 con ajustes menores.
+
+---
+
+## 📄 Licencia
+
+Este proyecto está bajo la Licencia MIT. Ver el archivo [LICENSE](LICENSE) para más detalles.
 
 ---
 ## 👤 Contacto

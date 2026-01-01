@@ -273,6 +273,7 @@ Gráfico de barras horizontal mostrando los Pokémon más poderosos.
 - Identifica los Pokémon más fuertes
 - Compara niveles de poder
 - Visualiza distribución de stats
+<img width="1409" height="553" alt="image" src="https://github.com/user-attachments/assets/2d03dcd2-1d5e-4d06-b7a9-350262bdd29e" />
 
 ### 2. 📈 Distribución de Niveles de Poder
 Histograma de estadísticas totales clasificadas por nivel.
@@ -436,22 +437,22 @@ R: Se recomienda Python 3.8+, pero puede funcionar con 3.7 con ajustes menores.
 ---
 ## 👤 Contacto
 
-**Tu Nombre**
+**Jerson Arrelucea**
 
-- GitHub: [@tu-usuario](https://github.com/tu-usuario)
-- LinkedIn: [Tu Perfil](https://linkedin.com/in/tu-perfil)
-- Email: tu.email@ejemplo.com
+- GitHub: [@jersonarrelucea14](https://github.com/jersonarrelucea14)
+- LinkedIn: [Jerson Arrelucea](https://linkedin.com/in/jerson-arrelucea-arrelucea-051b20266)
+- Email: jersonarrelucea14@gmail.com
 
 ## 🌟 Sígueme
 
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/tu-usuario)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/tu-perfil)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/tu-usuario)
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://tu-portfolio.com)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jersonarrelucea14)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/jerson-arrelucea-arrelucea-051b20266)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jersonarrelucea14@gmail.com)
 
 </div>
+
 ---
 
 ## 🙏 Agradecimientos
@@ -463,19 +464,10 @@ R: Se recomienda Python 3.8+, pero puede funcionar con 3.7 con ajustes menores.
 
 ---
 
-## 📈 Estadísticas del Proyecto
-
-![GitHub stars](https://img.shields.io/github/stars/tu-usuario/pokemon-etl-pipeline?style=social)
-![GitHub forks](https://img.shields.io/github/forks/tu-usuario/pokemon-etl-pipeline?style=social)
-![GitHub issues](https://img.shields.io/github/issues/tu-usuario/pokemon-etl-pipeline)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/tu-usuario/pokemon-etl-pipeline)
-
----
-
 <div align="center">
 
 **⭐ Si te gustó este proyecto, dale una estrella en GitHub ⭐**
 
-Hecho con ❤️ y ☕ por [Tu Nombre]
+Hecho con ❤️ y ☕ por  [Jerson Arrelucea](https://linkedin.com/in/jerson-arrelucea-arrelucea-051b20266)
 
 </div>

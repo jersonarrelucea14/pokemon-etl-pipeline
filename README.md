@@ -26,7 +26,6 @@ Pipeline ETL completo implementando la arquitectura **Medallion** (Bronze → Si
 - [Visualizaciones](#-visualizaciones)
 - [Estructura del Proyecto](#-estructura-del-proyecto)
 - [Ejemplos de Uso](#-ejemplos-de-uso)
-- [Contribuir](#-contribuir)
 - [Licencia](#-licencia)
 - [Contacto](#-contacto)
 
@@ -54,7 +53,7 @@ Pipeline ETL completo implementando la arquitectura **Medallion** (Bronze → Si
 
 ---
 
-## 🏗️ Arquitectura del Pipeline
+## 🧩 Arquitectura del Pipeline
 
 ```mermaid
 graph LR
@@ -364,7 +363,7 @@ Gráfico jerárquico de tamaño y poder.
 
 ---
 
-## 🗂️ Estructura del Proyecto
+## 🧱 Estructura del Proyecto
 
 ```
 pokemon-etl-pipeline/
